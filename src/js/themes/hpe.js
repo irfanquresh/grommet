@@ -1,5 +1,11 @@
+const textColor = '#333333';
+
 export default {
   brand: {
+    link: {
+      color: 'inherit',
+      textDecoration: 'underline',
+    },
     font: {
       family: "'Metric', Arial, sans-serif",
       face: `
@@ -39,6 +45,7 @@ export default {
     extend: 'letter-spacing: 0.04167em;',
   },
   colors: {
+    text: textColor,
     accent: ['#2AD2C9', '#614767', '#ff8d6d'],
     brand: '#01a982',
     neutral: ['#425563', '#5F7A76', '#80746E', '#767676'],

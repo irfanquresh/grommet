@@ -19,6 +19,10 @@ const borderWidth = 2;
 
 export default {
   brand: {
+    link: {
+      color: '#865CD6',
+      textDecoration: 'none',
+    },
     centerColumnWidth: `${baseSpacing * 48}px`,
     control: {
       font: {
